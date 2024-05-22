@@ -30,6 +30,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async
+        ></script>
+      </head>
       <body
         className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased max-w-screen bg-black text-gray-200 tracking-tight bg-grid-white/[0.2] relative`}
       >

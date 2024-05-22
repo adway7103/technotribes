@@ -20,7 +20,7 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/signin"
+                  href="/tech"
                   className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Our Technologies
@@ -28,7 +28,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/signin"
+                  href="/portfolio"
                   className="font-medium text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Portfolio
@@ -36,7 +36,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/signup"
+                  href="/contact"
                   className="btn-sm text-white ml-3"
                 >
                   Contact Us
