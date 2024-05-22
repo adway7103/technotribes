@@ -2,8 +2,10 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 import { InlineWidget } from 'react-calendly';
+import { FlipWords } from './ui/flipwords';
 
 export default function Hero() {
+  const words = ["MVP","Product", "Website"];
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -49,7 +51,8 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Looking forward to build a MVP for your business?
+              Looking forward to build a <br /> <FlipWords words={words} /> for your
+              business?
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
@@ -73,7 +76,7 @@ export default function Hero() {
                   className="btn rounded-xl text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                   href="#0"
                 >
-                 Schedule a meeting
+                  Schedule a meeting
                 </a>
               </div>
             </div>
