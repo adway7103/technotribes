@@ -11,6 +11,14 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**", 
+      },
+    ],
+  },
   theme: {
     extend: {
       colors: {
