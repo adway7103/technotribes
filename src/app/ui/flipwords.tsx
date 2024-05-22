@@ -51,14 +51,14 @@ export const FlipWords = ({
           ease: "easeInOut",
           type: "spring",
           stiffness: 100,
-          damping: 10,
+          damping: 15,
         }}
         exit={{
           opacity: 0,
-          y: -40,
-          x: 40,
-          filter: "blur(8px)",
-          scale: 2,
+          y: 0,
+          x: 100,
+          filter: "blur(6px)",
+          scale: 1.2,
           position: "absolute",
         }}
         className={cn(
