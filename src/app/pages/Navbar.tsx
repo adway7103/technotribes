@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="2xl:text-[3rem] xl:text-[2rem] lg:text-[2rem] font-semibold align-middle flex text-center items-center text-[1.5rem]">
         Technotribes
       </div>
-      <div className="hidden md:flex items-center justify-between gap-16 font-medium 2xl:text-[1.4rem] xl:text-[0.9rem]">
+      <div className="hidden md:flex items-center justify-between gap-16 font-medium 2xl:text-[1.5rem] xl:text-[1.1rem] text-[1rem]">
         <div>Our Technologies</div>
         <div>Portfolio</div>
         <div>Testimonials</div>
@@ -53,7 +53,7 @@ export default function Navbar() {
           isOpen ? "flex" : "hidden"
         }`}
       >
-        <div className="flex flex-col gap-8 items-center w-full p-8">
+        <div className="flex flex-col gap-8 items-center w-full p-8 text-[1.5rem]">
           <div className="block py-2">Our Technologies</div>
           <div className="block py-2">Portfolio</div>
           <div className="block py-2">Testimonials</div>
