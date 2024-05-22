@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased max-w-screen bg-black text-gray-200 tracking-tight bg-grid-white/[0.2] relative`}
       >
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] -z-10"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] -z-10"></div>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
