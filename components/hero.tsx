@@ -51,8 +51,8 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Looking forward to build a <br /> <FlipWords words={words} /> for your
-              business?
+              Looking forward to build a <br /> <FlipWords words={words} /> for
+              your business?
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
@@ -74,7 +74,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="btn rounded-xl text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                  href="#0"
+                  href="https://cal.com/technotribes/quick-connect"
                 >
                   Schedule a meeting
                 </a>
