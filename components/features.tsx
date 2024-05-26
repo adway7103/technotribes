@@ -49,8 +49,8 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Project requirement</h4>
               <p className="text-lg text-gray-400 text-center">
-                Lorem ipsum aadsx asxasx asxasx as asxasx asxcsd axsj sjdc ck
-                szcc ac dcac jacadc jadc adj
+                What will the site contain? What pages and functionalities do we
+                need? What sections will these individual pages contain? etc.
               </p>
             </div>
             <div
@@ -85,11 +85,11 @@ export default function Features() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">Tell us your Requirements</h4>
+              <h4 className="h4 mb-2"> Design References</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Once we're clear on what all pages will be included in the
+                project, it's time to find various design references to refine
+                our style better.
               </p>
             </div>
 
@@ -137,11 +137,11 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Build your MVP fast</h4>
+              <h4 className="h4 mb-2">Wireframes</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                It helps us visualize what will the overall site look like,
+                where will the main buttons be placed, which sections will show
+                what, etc. Think of it as a skeleton for our site.
               </p>
             </div>
 
@@ -182,11 +182,11 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Got something in mind?</h4>
+              <h4 className="h4 mb-2">Content</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                This site content will focus on our unique capabilities as an
+                agency and our value propositions while showcasing previous
+                projects and achievements.
               </p>
             </div>
 
@@ -224,11 +224,11 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Share your likes and dislikes</h4>
+              <h4 className="h4 mb-2">Visual Design</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                This stage will focus on the overall look and feel of the
+                project. Our typography, images, illustrations, and all other
+                visual elements will be worked upon here.
               </p>
             </div>
 
@@ -273,11 +273,11 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Recieve your product</h4>
+              <h4 className="h4 mb-2">Animations</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                You've seen those cute loading animations on different sites as
+                you scroll down? All of that is done during this stage of the
+                project.
               </p>
             </div>
           </div>

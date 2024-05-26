@@ -63,29 +63,25 @@ const cards = [
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-2",
-    thumbnail:
-      "https://th.bing.com/th/id/OIP._Mrsn31R_7Qt7UoSDXASCwHaEo?rs=1&pid=ImgDetMain",
+    thumbnail: "https://imgpx.com/JbCTpeBCkecJ.png",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
-    thumbnail:
-      "https://cssauthor.com/wp-content/uploads/2017/07/Camping-Website-Design.jpg",
+    thumbnail: "https://imgpx.com/pmyR4mAwmSHu.png",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
-    thumbnail:
-      "https://images.template.net/wp-content/uploads/2019/03/OnVacation-Travel-Company-elementor.jpeg",
+    thumbnail: "https://imgpx.com/LS2Vp4qG7T2R.png",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
-    thumbnail:
-      "https://cdn.dribbble.com/users/4996708/screenshots/13730069/media/d497ed93012d0f6cf5bc9af7a6106b2b.jpg",
+    thumbnail: "https://i.imghippo.com/files/JXwFh1716697939.png",
   },
 ];
 export default function Projects() {
